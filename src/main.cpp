@@ -157,8 +157,6 @@ public:
         continue;
       }
 
-      // TODO: formEnchant handling (prefab items)
-
       for (auto &xList : *entry->extraLists) {
         auto xEnchantment = xList->GetByType<RE::ExtraEnchantment>();
         if (xEnchantment) {

@@ -9,7 +9,7 @@
                 commit = "a723eaef7144dcd2eec359a171629c82a631882d",
                 url = "https://github.com/xmake-io/xmake-repo.git"
             },
-            version = "3.30.5"
+            version = "3.29.5-msvc4"
         },
         ["directxmath#31fecfc4"] = {
             repo = {
@@ -30,7 +30,7 @@
         ["rapidcsv#31fecfc4"] = {
             repo = {
                 branch = "master",
-                commit = "1c4a5226d098031c7980196c162975781e1627cd",
+                commit = "8fdfdd2c36f0695f46f3c59448cd9ccfb82edc38",
                 url = "https://gitlab.com/tboox/xmake-repo.git"
             },
             version = "8.84"

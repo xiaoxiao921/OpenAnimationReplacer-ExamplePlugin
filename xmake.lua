@@ -19,6 +19,7 @@ set_policy("package.requires_lock", true)
 -- add rules
 add_rules("mode.debug", "mode.releasedbg")
 add_rules("plugin.vsxmake.autoupdate")
+set_symbols("debug") -- Enable debug symbols
 
 -- targets
 target("OpenAnimationReplacer-ExamplePlugin")
